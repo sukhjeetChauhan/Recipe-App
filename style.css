@@ -1,0 +1,202 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Protest Riot', sans-serif;
+}
+
+.index-body {
+  background-image: linear-gradient(#a1a1a11b, #0000003c),
+    url(/Images/landingImage.jpg);
+  background-size: cover;
+  background-color: aqua;
+  min-height: 100vh;
+}
+
+.dash-body {
+  /* background-color: rgba(102, 240, 102, 0.577); */
+  display: grid;
+  grid-template-columns: 20fr 80fr;
+}
+
+.index-header {
+  font-size: 10rem;
+  margin-top: 12rem;
+  color: #e67700;
+  -webkit-text-stroke: 2px black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div-search {
+  padding: 4rem 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.index-search {
+  padding: 2rem 4rem;
+  background-color: #e67700;
+  color: #fff;
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+/* /////////////////////////////////////////////////// */
+/* General classes */
+
+.hidden {
+  display: none !important;
+}
+.overlay {
+  background-image: linear-gradient(#ffffffd3, #ffffffe5),
+    url(/Images/recipe-background.jpg) !important;
+}
+
+/* ////////////////////////////////////////////////////// */
+
+.ingredients-search {
+  background-image: url(/Images/wooden-background.jpg);
+  background-size: cover;
+  background-color: #646363d8;
+  width: 100%;
+  height: 100vh;
+  border-right: 5px solid #333;
+  box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.76);
+}
+
+.display-recipes {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-image: linear-gradient(#ffffff72, #ffffff76),
+    url(/Images/recipe-background.jpg);
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* max-width: 100rem; */
+  height: 80vh;
+  overflow: hidden;
+  box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.76);
+  border-radius: 5px;
+}
+
+.image > img {
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+
+.recipe-name {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #87642e;
+  text-decoration: none;
+}
+
+.recipe-name > span {
+  color: #335b96;
+}
+
+.button {
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+  border: none;
+  padding: 1rem;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  border-radius: 50%;
+  width: 5rem;
+  background-color: #3a3a3a9a;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.76);
+}
+.button.left {
+  left: 8rem;
+}
+
+.button.right {
+  right: 8rem;
+}
+
+/* ////////////////////////// */
+
+.ingredient-form {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin: 4rem 2rem;
+}
+
+.form-title {
+  font-size: 5rem;
+  color: #f5f1eb;
+}
+
+.form-row {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.label-ingredient {
+  font-size: 3.2rem;
+  color: #f5f1eb;
+  font-weight: bold;
+}
+
+.input-ingredient {
+  border-radius: 9px;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.47) inset;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-left: 2rem;
+  width: 20rem;
+}
+
+.search-button {
+  cursor: pointer;
+  font-size: 3rem;
+  font-family: 'Protest Riot', sans-serif;
+  font-weight: bold;
+  box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.76);
+}
+
+.add {
+  font-size: 2rem;
+  color: #eae2d6;
+  /* font-weight: bold; */
+}
+.add-button {
+  cursor: pointer;
+  padding: 0rem 0.7rem;
+  font-size: 2.5rem;
+  border-radius: 3px;
+  background-color: #eae2d6;
+  color: #333;
+  box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.76);
+}
