@@ -12,7 +12,7 @@ function index() {
     window.location.assign('./recipePage.html')
   })
 }
-if (location.pathname === './recipePage.html') recipePage()
+if (location.pathname === '/recipePage.html') recipePage()
 
 // ////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////
