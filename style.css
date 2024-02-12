@@ -11,7 +11,7 @@ html {
 
 .index-body {
   background-image: linear-gradient(#a1a1a11b, #0000003c),
-    url(/Images/landingImage.jpg);
+    url(./Images/landingImage.jpg);
   background-size: cover;
   background-color: aqua;
   min-height: 100vh;
@@ -59,13 +59,13 @@ html {
 }
 .overlay {
   background-image: linear-gradient(#ffffffd3, #ffffffe5),
-    url(/Images/recipe-background.jpg) !important;
+    url(./Images/recipe-background.jpg) !important;
 }
 
 /* ////////////////////////////////////////////////////// */
 
 .ingredients-search {
-  background-image: url(/Images/wooden-background.jpg);
+  background-image: url(./Images/wooden-background.jpg);
   background-size: cover;
   background-color: #646363d8;
   width: 100%;
@@ -81,7 +81,7 @@ html {
   justify-content: center;
   overflow: hidden;
   background-image: linear-gradient(#ffffff72, #ffffff76),
-    url(/Images/recipe-background.jpg);
+    url(./Images/recipe-background.jpg);
   background-size: cover;
 }
 
