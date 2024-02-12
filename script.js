@@ -1,6 +1,6 @@
 'use strict'
 
-if (location.pathname === '/') index()
+if (location.pathname === '/Recipe-App/') index()
 
 function index() {
   console.log('hi')
@@ -12,7 +12,7 @@ function index() {
     window.location.assign('./recipePage.html')
   })
 }
-if (location.pathname === '/recipePage.html') recipePage()
+if (location.pathname === '/Recipe-App/recipePage.html') recipePage()
 
 // ////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////
