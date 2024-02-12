@@ -9,7 +9,7 @@ function index() {
   searchButton.addEventListener('click', function (e) {
     e.preventDefault()
     console.log('clicked')
-    window.location.assign('recipePage.html')
+    window.location.assign('./recipePage.html')
   })
 }
 if (location.pathname === '/recipePage.html') recipePage()
